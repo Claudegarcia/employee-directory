@@ -9,4 +9,4 @@ SORT AND FILTER BUTTONS STILL NOT COMPLETE
 
 RANDOM USER CARDS
 
-![CARDS]('./public/assets/images/cards.PNG')
+![CARDS](./public/assets/images/cards.PNG)
