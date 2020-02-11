@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 
+//card component, populates card with title, name, gender, country, and email using props
 export default function Card(props) {
   return (
     <div className="Card">

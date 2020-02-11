@@ -5,6 +5,7 @@ import Card from "./Card";
 export default function UserData() {
   const [users, setUsers] = useState([]);
 
+  //api request
   useEffect(() => {
     const getUserData = async () => {
       let res = await axios.get("https://randomuser.me/api/?results=15");
@@ -14,6 +15,7 @@ export default function UserData() {
     getUserData();
   }, []);
 
+  //maps user data from api request
   return (
     <div>
       {users.map(u => (
